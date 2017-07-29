@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/notebook/notebook",
+    "pages/noteView/noteView",
+    "pages/noteEdit/noteEdit",
+    "pages/task/task",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "LeFer Note",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "笔记",
+        "iconPath":"static/notebook0.png",
+        "selectedIconPath":"static/notebook1.png"
+      },
+      {
+        "pagePath": "pages/noteEdit/noteEdit",
+        "text": "记事",
+        "iconPath": "static/note0.png",
+        "selectedIconPath": "static/note1.png"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务",
+        "iconPath": "static/task0.png",
+        "selectedIconPath": "static/task1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "static/about0.png",
+        "selectedIconPath": "static/about1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}
